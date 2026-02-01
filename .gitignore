@@ -2,6 +2,7 @@
 env*
 bacpipe/model_checkpoints/*
 bacpipe/tests/.pytest*
+bacpipe/evaluation/*
 *__pycache__*
 .vscode
 dist/*

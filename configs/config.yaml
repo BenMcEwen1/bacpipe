@@ -1,0 +1,8 @@
+defaults:
+  - paths: default
+  - model: resnet50
+  - train: default
+
+hydra:
+  run:
+    dir: ./outputs 

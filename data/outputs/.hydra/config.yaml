@@ -1,0 +1,15 @@
+paths:
+  ROOT_PATH: ./esc50/
+  AUDIO_DIR_ESC50: ./esc50/ESC-50-master/audio/
+  CSV_FILE_ESC50: ./esc50/ESC-50-master/meta/esc50.csv
+  MINI_ESC50_PATH: ./esc50/miniESC50/
+  MODEL_PATH: ./lightning_logs/version_1/checkpoints/epoch=9-step=500.ckpt
+model:
+  EMBEDDING_DIM: 2048
+train:
+  BATCH_SIZE: 8
+  SPLIT_RATIO: 0.8
+  DATALOADER: bacpipe
+  N_TASK_TRAIN: 100
+  N_TASK_VAL: 20
+  N_TASK_TEST: 10
